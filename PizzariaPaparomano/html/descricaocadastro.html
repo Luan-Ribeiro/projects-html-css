@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+<style type="text/css">
+	table{
+		border-collapse: collapse;
+		border-color: #FFA500;
+		
+	}
+
+</style>
+</head>
+
+<body bgcolor="orange">
+	
+	<table border="0" bgcolor="darkorange" width="100%">
+		<th><font color="white">Cadastro</font></th>
+	</table>
+	
+	<form name="cadastro_cliente" method="POST">
+	</br>
+	<table width="100%">
+		<tr>
+			<td width="15%"><font face="Arial" size="3"><B>Nome</B></font></td>
+			<td><input type="text" name="nome_cliente" size="50"></td>
+		</tr>
+		<tr>
+			<td width="15%"><font face="Arial" size="3"><B>E-mail</B></font></td>
+			<td><input type="text" name="email_cliente" size="50"></td>
+		</tr>
+		<tr>
+			<td width="15%" ><font face="Arial" size="3"><B>Senha</B></font></td>
+			<td><input type="password" name="senha_cliente" maxlength="8" size="8"></td>
+		</tr>
+		<tr>
+			<td width="15%"><font face="Arial" size="3"><B>Telefone</B></font></td>
+			<td><input type="text" name="telefone_cliente" size="15"></td>
+		</tr>
+		<tr>
+			<td width="15%"><font face="Arial" size="3"><B>Endereço</B></font></td>
+			<td><input type="text" name="endereco_cliente" size="50"></td>
+		</tr>
+		<tr>
+			<td><font face="Arial" size="3"><B>Opção de Pagamento</B></font></td>
+			<td>
+				<select>
+					<option></option>
+					<option value="1">Cartão de Crédito/Débito</option>
+					<option value="2">Dinheiro</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><input type="reset" value="Limpar"></td>
+			<td><input type="submit" value="Enviar"></td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
